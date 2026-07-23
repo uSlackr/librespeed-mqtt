@@ -1,0 +1,21 @@
+[test]
+command = "/usr/bin/librespeed-cli"
+# Pin a stable endpoint for comparable historical results.
+server_id = 52
+secure = true
+no_icmp = true
+timeout = 20
+duration = 10
+concurrent = 3
+process_timeout = 90
+
+[mqtt]
+host = "192.168.1.3"
+port = 1883
+username = "librespeed"
+password_file = "/etc/librespeed-mqtt/mqtt-password"
+client_id = "librespeed-prox2"
+topic_base = "home/proxmox/prox2/librespeed"
+discovery_prefix = "homeassistant"
+object_id_base = "librespeed_prox2"
+device_name = "LibreSpeed prox2"
