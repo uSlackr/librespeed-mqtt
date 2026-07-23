@@ -50,6 +50,9 @@ home/proxmox/prox2/librespeed/availability
 home/proxmox/prox2/librespeed/error
 ```
 
+<img width="531" height="285" alt="image" src="https://github.com/user-attachments/assets/4cdddfa0-a5d6-4ea4-b127-61c1351518ab" />
+
+
 Discovery definitions are published below `homeassistant/sensor/` by default.
 An MQTT account should be limited to the state topic tree and its own discovery
 topics when the broker supports ACLs.
