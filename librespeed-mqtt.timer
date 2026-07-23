@@ -1,10 +1,9 @@
 [Unit]
-Description=Run LibreSpeed WAN test every six hours
+Description=Run LibreSpeed WAN test hourly at 23 minutes past
 
 [Timer]
-OnCalendar=*-*-* 01,07,13,19:15:00
+OnCalendar=*-*-* *:23:00
 Persistent=true
-RandomizedDelaySec=10m
 
 [Install]
 WantedBy=timers.target

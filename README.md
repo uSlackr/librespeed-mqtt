@@ -29,7 +29,7 @@ password in `/etc/librespeed-mqtt/mqtt-password`. Run one test before scheduling
 /usr/local/sbin/librespeed-mqtt --config /etc/librespeed-mqtt/config.toml
 ```
 
-Then enable the timer:
+Then enable the timer. By default it runs hourly at 23 minutes past the hour:
 
 ```bash
 systemctl daemon-reload
